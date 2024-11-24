@@ -67,7 +67,7 @@ def find_matching_private_key(addresses, total_processes=8, keys_per_process=100
 
 def main():
     # Load addresses from file
-    address_file = "/Users/zzy/Desktop/BTC_catch/pure_addresses.txt"
+    address_file = "/Your-path-to/addresses.txt"
     addresses = load_addresses(address_file)
     print(f"Loaded {len(addresses)} addresses.")
 
