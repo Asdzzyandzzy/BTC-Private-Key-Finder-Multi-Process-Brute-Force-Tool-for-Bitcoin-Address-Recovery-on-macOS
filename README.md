@@ -42,7 +42,7 @@ BTC Private Key Finder is a multi-process brute-force tool designed to help user
    ```
 
 3. **Prepare the Address File**:
-   Create a text file named `pure_addresses.txt` in the project directory. Add one Bitcoin address per line, like so:
+   Create a text file named `addresses.txt` in the project directory. Add one Bitcoin address per line, like so:
    ```
    1ExampleBitcoinAddress1
    1ExampleBitcoinAddress2
@@ -54,9 +54,9 @@ BTC Private Key Finder is a multi-process brute-force tool designed to help user
 
 ### Configure the Address File Path:
 
-Open the `main.py` file and ensure the path to the `pure_addresses.txt` file is correct:
+Open the `main.py` file and ensure the path to the `addresses.txt` file is correct:
 ```python
-address_file = "/path/to/pure_addresses.txt"
+address_file = "/path/to/addresses.txt"
 ```
 
 ### Run the Tool:
